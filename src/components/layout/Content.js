@@ -13,7 +13,6 @@ const Content = () => {
     <ContentContainer>
       <Switch>
         <Route path="/" exact>
-          <Header title="Homepage" />
           <Home />
         </Route>
         <Route path="/contact">

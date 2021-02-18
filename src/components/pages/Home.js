@@ -36,11 +36,11 @@ const HomeContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 60vh;
   width: 100vw;
   @media (max-width: 734px) {
     flex-direction: column;
-    min-height: 100vh;
+    height: auto;
   }
 `;
 

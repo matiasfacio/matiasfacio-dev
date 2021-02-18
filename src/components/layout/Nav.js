@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import menuImage from "../../images/menu.svg";
-import Circles from "../elements/Circles";
+
 
 const Nav = () => {
   useEffect(() => {
@@ -39,9 +39,6 @@ const Nav = () => {
         />
       </LogoMenu>
       <NavBar>
-      <div style = {{width: "50px", height:"50px", zIndex:99}}>
-        <Circles />
-      </div>
         <ul>
           <Link to="/">Home</Link>
           <Link to="/aboutme">AboutMe</Link>
