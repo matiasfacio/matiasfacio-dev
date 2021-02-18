@@ -1,14 +1,66 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalContext = createGlobalStyle`
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  body {
+    background-color: white;
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    text-transform: capitalize;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: capitalize;
+  }
+  h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  li {
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+}`
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <GlobalContext/>
+        <App />
+    </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
