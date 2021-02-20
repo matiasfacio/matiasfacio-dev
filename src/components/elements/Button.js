@@ -1,17 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 
 const Button = ({ text, typeOfButton, goto }) => {
-
-
-  
   return (
-    <ButtonStyled
-      theme={typeOfButton}
-      as = 'a'
-      href = {`${goto}`}
-    >
+    <ButtonStyled theme={typeOfButton} to={`${goto}`}>
       {text}
     </ButtonStyled>
   );
@@ -19,7 +12,7 @@ const Button = ({ text, typeOfButton, goto }) => {
 
 export default Button;
 
-export const ButtonStyled = styled.button`
+export const ButtonStyled = styled(Link)`
   font-size: 1.5rem;
   padding: 10px 20px;
   margin: 10px;
