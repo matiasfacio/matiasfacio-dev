@@ -16,7 +16,7 @@ const Content = () => {
           <Home />
         </Route>
         <Route path="/contact">
-          <Header title="Contact" />
+          <Header title="Contact - Impressum" />
           <Contact />
         </Route>
         <Route path="/myskills">
@@ -39,8 +39,9 @@ const Content = () => {
 export default Content;
 
 const ContentContainer = styled.div`
-  margin-top: 100px;
+  margin-top: 0px;
   background-color: white;
   color: black;
-  min-height: calc(100vh - 100px - 70px);
+  padding 0 2em;
+  min-height: calc(100vh - 200px - 70px);
 `;

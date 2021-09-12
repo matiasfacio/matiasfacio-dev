@@ -15,7 +15,7 @@ const HeaderContainer = styled.header`
     display: grid;
     place-content: center;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 100px;
     h2 {
       text-transform: uppercase;
     }

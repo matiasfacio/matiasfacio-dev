@@ -12,13 +12,13 @@ const Contact = () => {
         <h2>Matias Facio</h2>
       </div>
       <Telephone>
-        <p>+49 177 4946117</p>
+        <p>Tel: +49 177 4946117</p>
       </Telephone>
-      <Email>
-        <p>matiaspersonal@gmail.com</p>
+      <Email as = "a" href = "mailto:matiaspersonal@gmail.com">
+        <p>Email: matiaspersonal@gmail.com</p>
       </Email>
       <Impressum>
-        <p>Impressum & Datenschutzerklärung</p>
+        <h2>Impressum & Datenschutzerklärung</h2>
         <div>
           <p>
           <br />
@@ -204,5 +204,5 @@ const Email = styled(ContactData)`
 const Impressum = styled(ContactData)`
   height: auto;
   background-color: white;
-  margin-bottom: 50px;
+  margin: 50px 0;
 `;

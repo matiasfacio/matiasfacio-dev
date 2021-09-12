@@ -15,7 +15,7 @@ export default Button;
 export const ButtonStyled = styled(Link)`
   font-size: 1.5rem;
   padding: 10px 20px;
-  margin: 10px;
+  margin-right: 10px;
   border-radius: 10px;
   border: 1px transparent solid;
   outline: none;

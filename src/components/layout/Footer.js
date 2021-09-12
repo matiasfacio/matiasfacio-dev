@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <FooterContainer>
       <h3>Let's talk</h3>
-      <p>+49 177 4946117</p>
-      <p>www.matiasfacio-dev.de</p>
-      <p>matiaspersonal@gmail.com</p>
+      <p>Tel: +49 177 4946117</p>
+      <a href = "https://github.com/matiasfacio/">My Github</a>
+      <a href = "mailto:matiaspersonal@gmail.com">matiaspersonal@gmail.com</a>
     </FooterContainer>
   );
 };

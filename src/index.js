@@ -15,9 +15,10 @@ export const GlobalContext = createGlobalStyle`
     background-color: white;
   }
   h1 {
-    font-size: 4rem;
+    font-size: clamp(2rem, 10vw, 4rem);
     font-weight: 100;
     text-transform: capitalize;
+    color: rgba(0,0,0,0.8);
   }
   h2 {
     font-size: 2rem;

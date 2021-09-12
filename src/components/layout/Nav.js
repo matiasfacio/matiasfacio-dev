@@ -99,7 +99,7 @@ const NavBar = styled.nav`
     flex-direction: column;
     justify-content: center;
     transform: translate(100vw, 0);
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 `;
 
