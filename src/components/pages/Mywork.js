@@ -131,7 +131,11 @@ const Mywork = () => {
           </li>
 
           <li>
-            <a href="/dibujar/index.html" target="_blank" rel="noreferrer">
+            <a
+              href="https://magic-canvas.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Drawing/Canvas
             </a>
           </li>
