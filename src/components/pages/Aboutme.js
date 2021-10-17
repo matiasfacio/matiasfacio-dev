@@ -10,47 +10,39 @@ const Aboutme = () => {
         <div>
           <p>
             Hi, I'm Matias. I'm a Web Developer based in Berlin, interested in
-            programming Web applications in React.js. <br />
+            programming Web applications in React.js. <br />I have been working
+            with HTML, CSS and Javascript for some years now, and about 1.5
+            years ago I started to work with React.js and Node.js. <br />
+            <br />I deploy my own projects in my VPS using Github Actions,
+            Docker and Nginx. I could say that I am interested in both, Front
+            and Back end development, but it is in Frontend development where I
+            feel that I can give my best. <br />
+            <br />I speak: Spanish, English and German. <br />
+            <br />I studied 4 years of I.T. back in Patagonia, Argentina, but
+            then I decided to follow an artistic path, which I did and now
+            occasionally I still do. <br />
             <br />
-            I have been working with HTML, CSS and Javascript for some years
-            now, and at the beginning of the last year I started to work with
-            React.js and Node.js.
-            <br />
-            I deploy my own projects in my VPS using Github Actions, Docker and
-            Nginx. I could say that I am interested in both, Front and Back end
-            development, but it is in Frontend development where I feel that I
-            can give my best.
-            <br />
-            I speak: Spanish, English and German.
-            <br />
-            <br />
-            A bit more about me: <br />
-            I studied 4 years of I.T. back in Patagonia, Argentina (meine
-            Heimat!), but then I decided to follow an artistic path, which I did
-            and now ocassionally I still do.
-            <br />
-            <br />
-            Why programming ? <br />
-            <br />
-            I always did all the Websites, video edition and graphic materials
-            that I needed for my projects and even for some friends. About 2
-            years ago, I decided to return to my old passion and become
-            professional programmer and..., Corona came by, and to be honest, it
-            kind of helped me to focus on learning the skills needed to become a
-            developer. <br />
+            Why programming ? I always did all the Websites, video edition and
+            graphic materials that I needed for my projects and even for some
+            friends. About 2 years ago, I decided to return to my old passion
+            and become professional programmer. <br />
             <br />
             In the need of practice, I started to change some of my projects
-            into React.js. But I wanted more so I started another project which
-            is still under construction (www.tangobootcamp.net, an online
-            learning platform). <br />
-            <br /> At the moment I am working as a freelancer for a shipping
-            company. The stack were are using: React.js, React-Router,
-            React-Query, Redux, Gitlab and Slack. <br />
+            into React.js and created some new ones like{" "}
+            <a href="https://www.tangobootcamp.net">www.tangobootcamp.net</a>,
+            an online video learning platform,{" "}
+            <a href="https://www.tangodefinitions.com">
+              www.tangodefinitions.com
+            </a>{" "}
+            which is a simple search bar for tango related words. <br />
+            <br />
+            At the moment I am working as a frontend developer for a shipping
+            company. The stack we are using: React.js, React-Router,
+            React-Query, Redux, Ant Design, Styled-Components, Gitlab and Slack.
+            <br />
             <br />
             If you think I could be a good match for what you are looking for
-            contact me and let's talk. <br />
-            <br />
-            Matias
+            contact me and let's talk.
           </p>
         </div>
         <Picture>

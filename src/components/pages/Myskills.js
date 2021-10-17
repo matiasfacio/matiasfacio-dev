@@ -1,18 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../../images/logo.svg";
+import { Title } from "../elements/Title";
 
 const Myskills = () => {
   return (
     <MySkillsContainer>
       <MySkillsContent>
         <WorkUnit>
-          <h3>Websites</h3>
+          <Title>Websites</Title>
           <ul>
             <li>HTML</li>
             <li>CSS/SASS</li>
             <li>Javascript</li>
-            <li>Flex</li>
+            <li>Flexbox</li>
             <li>Grid</li>
             <li>Responsiveness</li>
             <li>CSS Canvas</li>
@@ -22,7 +22,7 @@ const Myskills = () => {
           </ul>
         </WorkUnit>
         <WorkUnit>
-          <h3>WebApp</h3>
+          <Title>Frontend (SPA)</Title>
           <ul>
             <li>React.js</li>
             <li>Next.js</li>
@@ -35,7 +35,7 @@ const Myskills = () => {
           </ul>
         </WorkUnit>
         <WorkUnit>
-          <h3>Coding</h3>
+          <Title>Backend</Title>
           <ul>
             <li>Rest API</li>
             <li>Node.js</li>
@@ -58,27 +58,18 @@ const MySkillsContainer = styled.div`
 
 const MySkillsContent = styled.div`
   padding: 0px 2em;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   @media (max-width: 767px) {
     flex-direction: column;
     margin-top: 0px;
+    align-items: center;
   }
 `;
 
 const WorkUnit = styled.div`
+  margin: 0 auto;
   margin-top: 50px;
-  h3 {
-    font-size: 1.5rem;
-    position: relative;
-    &:before {
-      position: absolute;
-      content: url(${logo});
-      width: 40px;
-      height: 40px;
-      transform: translate(-40px, -4px);
-    }
-  }
 `;

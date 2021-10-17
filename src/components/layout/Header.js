@@ -1,10 +1,10 @@
 import React from "react";
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Header = ({ title }) => {
   return (
     <HeaderContainer>
-      <h3>{title === 'Homepage' ? '': title}</h3>
+      <h3>{title === "Homepage" ? "" : title}</h3>
     </HeaderContainer>
   );
 };
@@ -12,11 +12,12 @@ const Header = ({ title }) => {
 export default Header;
 
 const HeaderContainer = styled.header`
-    display: grid;
-    place-content: center;
-    padding: 10px;
-    margin-top: 100px;
-    h2 {
-      text-transform: uppercase;
-    }
-`
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 100px;
+  border: 1px transparent solid;
+  h3 {
+    text-transform: uppercase;
+  }
+`;

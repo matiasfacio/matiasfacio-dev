@@ -26,9 +26,10 @@ export const GlobalContext = createGlobalStyle`
     text-transform: capitalize;
   }
   h3 {
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
   }
+
   p {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -51,14 +52,13 @@ export const GlobalContext = createGlobalStyle`
     line-height: 1.6;
     font-weight: 300;
   }
-}`
-
+}`;
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <GlobalContext/>
-        <App />
+      <GlobalContext />
+      <App />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
