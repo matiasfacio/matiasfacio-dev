@@ -46,7 +46,6 @@ const FooterContainer = styled.footer`
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  padding: 20px;
   background-color: rgb(233, 233, 233);
   font-size: 100%;
   justify-content: space-around;
@@ -64,7 +63,7 @@ const FooterBottom = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-top: 5px;
+  padding: 20px;
   @media (max-width: 768px) {
     position: relative;
     flex-direction: column;

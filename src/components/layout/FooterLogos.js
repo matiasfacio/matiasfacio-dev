@@ -56,6 +56,7 @@ const LogosContainer = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   background-color: rgb(233, 233, 233);
   padding: 10px 30px;
   border-bottom: 1px white solid;
