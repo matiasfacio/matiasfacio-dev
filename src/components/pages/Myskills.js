@@ -54,6 +54,7 @@ export default Myskills;
 
 const MySkillsContainer = styled.div`
   width: 100%;
+  margin-bottom: 100px;
 `;
 
 const MySkillsContent = styled.div`

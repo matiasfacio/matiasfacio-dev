@@ -11,9 +11,16 @@ export const GlobalContext = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  html {
+    overflow: scroll;
+  }
+
   body {
     background-color: white;
   }
+
+
   h1 {
     font-size: clamp(2rem, 10vw, 4rem);
     font-weight: 100;

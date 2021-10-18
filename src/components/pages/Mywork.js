@@ -200,6 +200,7 @@ const WorksContent = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  margin-bottom: 100px;
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
