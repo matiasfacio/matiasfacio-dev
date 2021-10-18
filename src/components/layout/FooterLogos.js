@@ -5,7 +5,7 @@ import docker from "../../images/logos/docker-icon.svg";
 import express from "../../images/logos/express.svg";
 import gitlab from "../../images/logos/gitlab.svg";
 import github from "../../images/logos/github-icon.svg";
-import heroku from "../../images/logos/heroku.svg";
+import heroku from "../../images/logos/heroku-icon.svg";
 import html from "../../images/logos/html-5.svg";
 import javascript from "../../images/logos/javascript.svg";
 import jira from "../../images/logos/jira.svg";

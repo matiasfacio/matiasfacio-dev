@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import menuImage from "../../images/menu.svg";
 
-
 const Nav = () => {
   useEffect(() => {
     const logomenu = document.querySelector("#logomenu");
@@ -28,7 +27,6 @@ const Nav = () => {
 
   return (
     <div>
-      
       <LogoMenu>
         <img
           id="logomenu"
@@ -56,17 +54,18 @@ export default Nav;
 const NavBar = styled.nav`
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   display: flex;
   flex-direction: row;
+  align-items: center;
   z-index: 99;
-  width: 100%;
   height: auto;
   justify-content: flex-end;
   align-items: center;
   background-color: white;
   overflow-x: hidden;
   transform: translate(0vw, 0vh);
+
   ul {
     display: flex;
     flex-direction: row;
