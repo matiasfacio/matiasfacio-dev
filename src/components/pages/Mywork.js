@@ -19,20 +19,21 @@ const Mywork = () => {
             <Details>
               React.js / Node.js / <br />
               RestAPI / MySQL / Docker /<br />
-              Github Actions
+              Github Actions / Stripe.js
             </Details>
           </li>
           <li>
             <a
-              href="https://tangoblogging.herokuapp.com/"
+              href="https://tbc-next.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
-              Blog
+              Tango BootCamp
             </a>
             <Details>
-              React.js / Node.js / <br />
-              RestAPI / MongoDB / Heroku /
+              Next.js / Stripe.js
+              <br />
+              / PlanetScale (MySQL) <br />/ Netlify (new)
             </Details>
           </li>
           <li>
@@ -49,6 +50,20 @@ const Mywork = () => {
               Github Actions
             </Details>
           </li>
+          <li>
+            <a
+              href="https://tangoblogging.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blog
+            </a>
+            <Details>
+              React.js / Node.js / <br />
+              RestAPI / MongoDB / Heroku /
+            </Details>
+          </li>
+
           <li>
             <a
               href="https://tateti-tictactoe.netlify.app/"
@@ -93,32 +108,6 @@ const Mywork = () => {
               Matias Facio Tango
             </a>
             <Details> React.js / Styled-Components</Details>
-          </li>
-          <li>
-            <a
-              href="/claudia_rogowski/claudia-tango/index.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Claudia Rogowski (Dance)
-            </a>
-            <Details>
-              Javascript / HTML / CSS <br />
-              (work in progress)
-            </Details>
-          </li>
-          <li>
-            <a
-              href="/claudia_rogowski/claudia-nueva/index.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Claudia Rogowski (Hypnosis)
-            </a>
-            <Details>
-              Javascript / HTML / CSS <br />
-              (work in progress)
-            </Details>
           </li>
           <li>
             <a
@@ -168,12 +157,6 @@ const Mywork = () => {
               Magic Canvas
             </a>
             <Details>Javascript / Canvas / Render</Details>
-          </li>
-          <li>
-            <a href="/black/index.html" target="_blank" rel="noreferrer">
-              Blake
-            </a>
-            <Details>Javascript / HTML / CSS</Details>
           </li>
 
           <li>
