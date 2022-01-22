@@ -5,8 +5,8 @@ import matiasfacio from "../../images/MatiasFacio-portrait.jpg";
 
 const Aboutme = () => {
   return (
-    <AboutMeContainer>
-      <TextContainer>
+    <>
+      <AboutMeContainer>
         <div>
           <p>
             Hi, I'm Matias. I'm a Web Developer based in Berlin, interested in
@@ -53,40 +53,25 @@ const Aboutme = () => {
             height="auto"
           />
         </Picture>
-      </TextContainer>
-    </AboutMeContainer>
+      </AboutMeContainer>
+    </>
   );
 };
 
 export default Aboutme;
 
 const AboutMeContainer = styled.div`
-  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: left;
-  padding-bottom: 50px;
-`;
-
-const TextContainer = styled.div`
-  display: flex;
-  // width: clamp(300px, 0%, 800px);
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 50px 0em;
-  &:before {
-    position: absolute;
-    content: url(${logo});
-    width: 40px;
-    height: 40px;
-    transform: translate(-40px, -4px);
-  }
-  @media (max-width: 669px) {
+  padding: 2vw;
+  gap: 50px;
+  background-color: var(--main-bg-color);
+  @media (max-width: 664px) {
     flex-direction: column;
-    &:before {
-      display: none;
-    }
   }
 `;
 
@@ -95,8 +80,4 @@ const Picture = styled.div`
   @media (max-width: 669px) {
     padding-top: 30px;
   }
-`;
-
-export const TitleContainer = styled.div`
-  margin-bottom: 20px;
 `;

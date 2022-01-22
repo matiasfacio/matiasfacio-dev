@@ -4,13 +4,12 @@ import styled from "styled-components";
 import Circles from "../elements/Circles";
 
 const Home = () => {
-
   return (
     <HomeContainer>
       <ContainerLeft>
         <h1>matias facio</h1>
         <h3>Frontend Developer</h3>
-        <br/>
+        <br />
         <h4>React.js/Javascript/CSS/HTML</h4>
         <h4>Node.js/Express.js/RestAPI</h4>
         <Buttonera>
@@ -26,43 +25,48 @@ const Home = () => {
           />
         </Buttonera>
       </ContainerLeft>
-      <div style = {{width: 150, height: 150}}>
+      <ContainerRight>
         <Circles />
-      </div>
+      </ContainerRight>
     </HomeContainer>
   );
 };
 
 export default Home;
 
-const HomeContainer = styled.div`
+const HomeContainer = styled.section`
+  background-color: var(--main-bg-color);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 100px - 70px);
+  height: calc(100vh - 350px);
   width: 100%;
-  @media (max-width: 734px) {
+  @media (max-width: 740px) {
     flex-direction: column;
-  }
-  @media (max-height: 800px) {
-    margin-top: 100px;
+    min-height: calc(100vh - 200px);
+    padding: 2vw;
   }
 `;
 
 const ContainerLeft = styled.div`
-  padding: 2em;
   h3 {
-    margin-top:10px;
-    color: rgba(0,0,0,0.8);
+    margin-top: 10px;
   }
   h4 {
     font-weight: 100;
     margin-top: 5px;
-    color: rgba(0,0,0,0.8);
   }
-`
+`;
+
+const ContainerRight = styled.div`
+  width: 150px;
+  height: 150px;
+  @media screen and (max-width: 740px) {
+    display: none;
+  }
+`;
 
 const Buttonera = styled.div`
-  margin-top: 30px;
-`
+  margin-top: 70px;
+`;

@@ -1,14 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import github from "../../images/github-icon.svg";
-import { FooterLogos } from "../layout/FooterLogos";
-import { useLocation } from "react-router";
 
 const Footer = () => {
-  const location = useLocation();
   return (
     <FooterContainer>
-      {location.pathname === "/myskills" && <FooterLogos />}
       <FooterBottom>
         <div style={{ textAlign: "right" }}>
           Let's talk <br />
@@ -34,24 +30,22 @@ const Footer = () => {
 export default Footer;
 
 const FooterContainer = styled.footer`
-  position: fixed;
+  position: relative;
   width: 100vw;
-  right: 0;
-  bottom: 0;
   display: flex;
   flex-direction: column;
-  background-color: rgb(233, 233, 233);
+  background-color: var(--main-bg-color);
   font-size: 100%;
   justify-content: space-around;
   align-items: center;
-  color: tomato;
+  color: var(--main-color);
+  min-height: 100px;
 
   a {
-    color: black;
+    color: var(--main-color-light);
     font-size: 0.9rem;
   }
-  @media (max-width: 768px) {
-    margin-top: 100px;
+  @media (max-width: 740px) {
     position: relative;
   }
 `;
@@ -63,15 +57,15 @@ const FooterBottom = styled.div`
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  @media (max-width: 768px) {
+  @media (max-width: 740px) {
     position: relative;
     flex-direction: column;
     height: auto;
     align-items: flex-end;
-    background-color: rgb(233, 233, 233);
-    color: tomato;
+
+    color: var(--main-color);
     a {
-      color: black;
+      color: white;
     }
   }
 `;

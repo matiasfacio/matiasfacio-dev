@@ -183,8 +183,7 @@ const WorksContent = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-bottom: 100px;
-  @media (max-width: 800px) {
+  @media (max-width: 740px) {
     flex-direction: column;
     align-items: center;
   }
@@ -193,6 +192,9 @@ const WorksContent = styled.div`
 const WorkUnit = styled.div`
   margin: 0 auto;
   margin-top: 50px;
+  a {
+    color: var(--main-color);
+  }
 `;
 
 const Details = styled.div`

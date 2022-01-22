@@ -7,57 +7,100 @@ import { BrowserRouter } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalContext = createGlobalStyle`
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 
-  html {
-    overflow: scroll;
+  #root {
+    --main-bg-color: #1F2E3D;
+    --secondary-bg-color: #2C4156;
+    --main-color: #65DFDC;
+    --main-color-tomato: tomato;
+    --main-color-light: #E3FFFE;
   }
 
+  html {
+    background-color: #1F2E3D;
+    overflow-x: hidden;
+  }
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+ 
   body {
-    background-color: white;
+    background-color: var(--main-bg-color);
   }
 
 
   h1 {
     font-size: clamp(2rem, 10vw, 4rem);
-    font-weight: 100;
+    font-weight: 600;
     text-transform: capitalize;
-    color: rgba(0,0,0,0.8);
+    color: var(--main-color-light);
+    font-family: 'Roboto Mono', monospace;
   }
   h2 {
     font-size: 2rem;
     font-weight: 100;
     text-transform: capitalize;
+    color: var(--main-color-light);
+    font-family: 'Roboto Mono', monospace;
+
+
   }
   h3 {
     font-weight: 300;
     text-transform: uppercase;
+    color: var(--main-color-light);
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+  h4 {
+    color: var(--main-color-light);
+    font-family: 'Roboto Mono', monospace;
+
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6;
     font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+s
   }
+
   ul {
     list-style: none;
     margin-top: 20px;
   }
+
   li {
     padding-bottom: 5px;
     font-size: 1.1rem;
     line-height: 1.6;
     font-weight: 300;
+    color: white;
   }
+
   a {
     text-decoration: none;
-    color: black;
-    font-size: 1.1rem;
+    color: var(--main-color-light);
+    font-size: 1rem;
     line-height: 1.6;
     font-weight: 300;
+    border-bottom: 1px;
+    padding-bottom: 3px;
+    font-family: 'Roboto Mono', monospace;
+
+    :hover{
+      border-bottom: 0.075rem var(--main-color-light) solid;
+    }
   }
 }`;
 

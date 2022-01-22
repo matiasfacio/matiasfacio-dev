@@ -24,7 +24,7 @@ const rotate = keyframes`
 `;
 
 const CirclesContainer = styled.div`
-  border: 5px rgb(248, 139, 120) solid;
+  border: 5px var(--main-color) solid;
   border-radius: 50%;
   height: 100%;
   width: 100%;
@@ -34,16 +34,15 @@ const CirclesContainer = styled.div`
 
 const Circle = styled.div`
   position: absolute;
-  background-color: rgb(248, 139, 120);
+  background-color: var(--main-color);
   right: ${(props) => props.theme.right};
   top: ${(props) => props.theme.top};
   height: 30%;
   width: 30%;
   border-radius: 50%;
-  border: 1px rgb(248, 139, 120) solid;
+  border: 1px var(--main-color) solid;
   transition: all 0.5s;
   &:hover {
-    background-color: rgb(248, 139, 120);
     width: 50%;
     height: 50%;
   }

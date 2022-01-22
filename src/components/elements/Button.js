@@ -14,22 +14,23 @@ export default Button;
 
 export const ButtonStyled = styled(Link)`
   font-size: 1.5rem;
+  font-weight: 500;
   padding: 10px 20px;
   margin-right: 10px;
   border-radius: 10px;
   border: 1px transparent solid;
   outline: none;
   background-color: ${(props) =>
-    props.theme === "primary" ? "rgb(180, 180, 180)" : "rgb(248,139,120)"};
-  color: ${(props) => (props.theme === "primary" ? "white" : "white")};
+    props.theme === "primary" ? "rgb(180, 180, 180)" : "var(--main-color)"};
+  color: ${(props) =>
+    props.theme === "primary" ? "white" : "var(--main-bg-color)"};
   cursor: pointer;
   text-decoration: none;
   &:hover {
     background-color: white;
     color: rgb(86, 86, 86);
-    border: ${(props) =>
-      props.theme === "primary"
-        ? "1px rgb(180, 180, 180) solid"
-        : "1px rgb(248,139,120) solid"};
+  }
+  @media (max-width: 395px) {
+    padding: 5px;
   }
 `;

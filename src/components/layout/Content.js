@@ -20,16 +20,16 @@ const Content = () => {
           <Contact />
         </Route>
         <Route path="/myskills">
-          <Header title = "My Skills"/>
+          <Header title="My Skills" />
           <Myskills />
         </Route>
         <Route path="/aboutme">
-          <Header title = "About Me"/>
+          <Header title="About Me" />
           <Aboutme />
         </Route>
         <Route path="/mywork">
-           <Header title = "My Work"/>
-           <Mywork/>
+          <Header title="My Work" />
+          <Mywork />
         </Route>
       </Switch>
     </ContentContainer>
@@ -38,10 +38,16 @@ const Content = () => {
 
 export default Content;
 
-const ContentContainer = styled.div`
-  margin-top: 0px;
-  background-color: white;
-  color: black;
-  padding 0 2em;
-  min-height: calc(100vh - 200px - 70px);
+const ContentContainer = styled.section`
+  width: 100vw;
+  padding: 10px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  background-color: var(--main-bg-color);
+
+  @media screen and (max-width: 740px) {
+    margin-top: 0;
+    padding-top: 100px;
+    min-height: calc(100vh - 100px);
+  }
 `;

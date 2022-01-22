@@ -7,10 +7,11 @@ export const Title = ({ children }) => {
 };
 
 const StyledTitle = styled.div`
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   position: relative;
   font-size: 1.5rem;
+  color: var(--main-color);
   &:before {
     position: absolute;
     content: url(${logo});

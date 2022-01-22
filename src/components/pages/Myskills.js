@@ -54,7 +54,9 @@ export default Myskills;
 
 const MySkillsContainer = styled.div`
   width: 100%;
-  margin-bottom: 100px;
+  @media (max-width: 740px) {
+    margin-bottom: 0;
+  }
 `;
 
 const MySkillsContent = styled.div`
@@ -63,7 +65,7 @@ const MySkillsContent = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  @media (max-width: 767px) {
+  @media (max-width: 740px) {
     flex-direction: column;
     margin-top: 0px;
     align-items: center;

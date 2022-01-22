@@ -40,7 +40,6 @@ const Contact = () => {
             Telefonnummer: 01774946117
             <br />
             <br />
-            <hr />
             <br />
             STREITSCHLICHTUNG
             <br />
@@ -175,6 +174,5 @@ const Email = styled(ContactData)``;
 
 const Impressum = styled.div`
   height: auto;
-  background-color: white;
   margin: 50px 0;
 `;

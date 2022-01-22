@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="72 71 356 352" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <path d="M 276 237 m -125 0 a 125 127 0 1 0 250 0 a 125 127 0 1 0 -250 0 Z M 276 237 m -122 0 a 122 123 0 0 1 244 0 a 122 123 0 0 1 -244 0 Z" style="fill: rgb(248, 139, 120);" transform="matrix(-0.618732, 0.785602, -0.790623, -0.612357, 608.167847, 175.140381)" bx:shape="ring 276 237 122 123 125 127 1@aae02926"/>
-  <circle style="fill: rgb(248, 139, 120);" cx="248" cy="187" r="34"/>
-  <circle style="fill: rgb(248, 139, 120);" cx="247" cy="307" r="34"/>
-  <circle style="fill: rgb(248, 139, 120);" cx="309" cy="246" r="34"/>
-  <circle style="fill: rgb(248, 139, 120);" cx="191" cy="247" r="34"/>
+  <path d="M 276 237 m -125 0 a 125 127 0 1 0 250 0 a 125 127 0 1 0 -250 0 Z M 276 237 m -122 0 a 122 123 0 0 1 244 0 a 122 123 0 0 1 -244 0 Z" style="fill: #65DFDC;" transform="matrix(-0.618732, 0.785602, -0.790623, -0.612357, 608.167847, 175.140381)" bx:shape="ring 276 237 122 123 125 127 1@aae02926"/>
+  <circle style="fill: #65DFDC;" cx="248" cy="187" r="34"/>
+  <circle style="fill: #65DFDC;" cx="247" cy="307" r="34"/>
+  <circle style="fill: #65DFDC;" cx="309" cy="246" r="34"/>
+  <circle style="fill: #65DFDC;" cx="191" cy="247" r="34"/>
 </svg>

@@ -14,10 +14,9 @@ export default Header;
 const HeaderContainer = styled.header`
   display: flex;
   justify-content: center;
-  padding: 10px;
-  margin-top: 100px;
   border: 1px transparent solid;
   h3 {
     text-transform: uppercase;
+    font-weight: 500;
   }
 `;

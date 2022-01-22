@@ -57,10 +57,9 @@ const LogosContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(233, 233, 233);
   padding: 10px 30px;
-  border-bottom: 1px white solid;
-  @media screen and (max-width: 1000px) {
+  background-color: var(--secondary-bg-color);
+  @media screen and (max-width: 740px) {
     display: none;
   }
 `;
