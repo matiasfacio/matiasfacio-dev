@@ -35,6 +35,7 @@ const Home = () => {
 export default Home;
 
 const HomeContainer = styled.section`
+  position: relative;
   background-color: var(--main-bg-color);
   display: flex;
   flex-direction: row;
@@ -46,6 +47,25 @@ const HomeContainer = styled.section`
     flex-direction: column;
     min-height: calc(100vh - 200px);
     padding: 2vw;
+  }
+  ::before {
+    position: absolute;
+    content: "code creativity solutions";
+    font-size: 5rem;
+    opacity: 0.01;
+    color: var(--main-color-light);
+    writing-mode: vertical-rl;
+    bottom: 0;
+    right: 0;
+    transform: translateY(0);
+    transition: all 5s ease;
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+  &:hover::before {
+    opacity: 0.1;
+    transform: translateY(10vh);
   }
 `;
 
