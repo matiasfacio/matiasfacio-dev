@@ -13,11 +13,7 @@ const Home = () => {
         <h4>React.js/Javascript/CSS/HTML</h4>
         <h4>Node.js/Express.js/RestAPI</h4>
         <Buttonera>
-          <ButtonStyled
-            text="myworks"
-            typeOfButton="secondary"
-            goto="/mywork"
-          />
+          <ButtonStyled text="mywork" typeOfButton="secondary" goto="/mywork" />
           <ButtonStyled
             text="myskills"
             typeOfButton="primary"
