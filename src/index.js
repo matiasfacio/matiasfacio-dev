@@ -97,6 +97,7 @@ s
     border-bottom: 1px;
     padding-bottom: 3px;
     font-family: 'Roboto Mono', monospace;
+    border-bottom: 0.075rem transparent solid;
 
     :hover{
       border-bottom: 0.075rem var(--main-color-light) solid;

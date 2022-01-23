@@ -62,17 +62,16 @@ const MySkillsContainer = styled.div`
 const MySkillsContent = styled.div`
   padding: 0px 2em;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 100px auto;
   display: flex;
   justify-content: space-around;
+  gap: 50px;
   @media (max-width: 740px) {
     flex-direction: column;
     margin-top: 0px;
-    align-items: center;
+    align-items: flex-start;
+    padding: 100px;
   }
 `;
 
-const WorkUnit = styled.div`
-  margin: 0 auto;
-  margin-top: 50px;
-`;
+const WorkUnit = styled.div``;
