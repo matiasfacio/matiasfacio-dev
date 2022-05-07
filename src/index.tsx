@@ -72,7 +72,6 @@ export const GlobalContext = createGlobalStyle`
     font-weight: 300;
     font-family: 'Roboto Mono', monospace;
     color: white;
-s
   }
 
   ul {
@@ -103,7 +102,7 @@ s
       border-bottom: 0.075rem var(--main-color-light) solid;
     }
   }
-}`;
+`;
 
 ReactDOM.render(
   <React.StrictMode>
