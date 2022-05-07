@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Header = ({ title }) => {
+const Header = ({ title }: any) => {
   return (
     <HeaderContainer>
       <h3>{title === "Homepage" ? "" : title}</h3>

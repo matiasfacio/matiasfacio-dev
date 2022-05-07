@@ -2,7 +2,7 @@ import styled from "styled-components";
 import React from "react";
 import logo from "../../images/logo.svg";
 
-export const Title = ({ children }) => {
+export const Title = ({ children }: any) => {
   return <StyledTitle>{children}</StyledTitle>;
 };
 

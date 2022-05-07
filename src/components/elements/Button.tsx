@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const Button = ({ text, typeOfButton, goto }) => {
+const Button = ({ text, typeOfButton, goto }: any) => {
   return (
     <ButtonStyled theme={typeOfButton} to={`${goto}`}>
       {text}

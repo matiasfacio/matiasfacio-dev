@@ -18,6 +18,7 @@ const Footer = () => {
             gap: "5px",
             cursor: "pointer",
           }}
+          // @ts-expect-error ts-migrate(2322) FIXME: Type 'string' is not assignable to type 'Location'... Remove this comment to see the full error message
           onClick={() => (window.location = "https://github.com/matiasfacio/")}
         >
           <img src={github} width="30px" alt="github" /> Github
