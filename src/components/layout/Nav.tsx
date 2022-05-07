@@ -21,7 +21,6 @@ const Nav = () => {
           alt="menu"
         />
       </LogoMenu>
-      // @ts-expect-error ts-migrate(2769) FIXME: No overload matches this call.
       <NavBar visible={menuVisibility}>
         <ul>
           <Link to="/" onClick={handleClick}>
@@ -47,7 +46,7 @@ const Nav = () => {
 
 export default Nav;
 
-const NavBar = styled.nav`
+const NavBar = styled.nav<{ visible?: boolean }>`
   position: fixed;
   top: 0;
   right: 0;
@@ -95,7 +94,6 @@ const NavBar = styled.nav`
       width: 100%;
       transition: all 0.5s ease-in-out;
 
-      // @ts-expect-error ts-migrate(2339) FIXME: Property 'visible' does not exist on type 'Pick<De... Remove this comment to see the full error message
       ${({ visible }) =>
         visible
           ? "opacity: 1; transform: translateX(0); z-index: 100;"
@@ -108,7 +106,6 @@ const NavBar = styled.nav`
     justify-content: center;
     transition: all 0.5s ease-in-out;
 
-    // @ts-expect-error ts-migrate(2339) FIXME: Property 'visible' does not exist on type 'Pick<De... Remove this comment to see the full error message
     ${({ visible }) =>
       visible
         ? "opacity:1; transform: translateX(0);z-index: 100;"
