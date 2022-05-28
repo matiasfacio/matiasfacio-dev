@@ -38,16 +38,35 @@ const Aboutme = () => {
             </a>{" "}
             which is a simple search bar for tango related words. <br />
             <br />
-            At the moment, I am working as a frontend developer for a shipping
-            company. The stack we are using consists of: React.js, React-Router,
-            React-Query, Redux, Ant Design, Styled-Components, Gitlab and Slack.
-            <br />
             I'm also doing some projects for other clients and for my self, both
             in React.js and Next.js.
             <br />
             <br />
             If you think that we can work together, contact me and let's talk.
           </p>
+          <WorkExperienceList>
+            <WorkTitle>Work experience:</WorkTitle>
+            <li>
+              01.04.2022 - present: Frontend Developer at Inklusion-Digital (
+              <a href="https://www.inklusion-digital.de/">
+                https://www.inklusion-digital.de/
+              </a>
+              ). Stack: Next.js, SWR, Tailwinds
+            </li>
+            <li>
+              01.05.2021 - 28.02.2022: Frontend Developer at Seabo (
+              <a href="https://seabo.com">https://seabo.com</a>). The stack we
+              were using consists of: React.js, React-Router, React-Query,
+              Redux, Ant Design, Styled-Components, Gitlab and Slack.
+            </li>
+            <li>
+              01.03.2009 - 31.12.2019: Tango Libre Gbr. Management of the
+              studio, dance lessons (group and private), co-operation with
+              international guest teachers Part of the job is also the
+              marketing, including several cycles of redesigning the website (
+              <a href="www.tangoschuleberlin.de">www.tangoschuleberlin.de</a>).
+            </li>
+          </WorkExperienceList>
         </AboutMeText>
         <Picture />
       </AboutMeContainer>
@@ -95,4 +114,17 @@ const Picture = styled.div`
   @media (max-width: 669px) {
     padding-top: 30px;
   }
+`;
+
+const WorkExperienceList = styled.ul`
+  margin-top: 100px;
+  li {
+    margin: 10px 0;
+  }
+`;
+
+const WorkTitle = styled.div`
+  font-size: 1.5rem;
+  color: var(--main-color);
+  margin: 20px 0;
 `;
