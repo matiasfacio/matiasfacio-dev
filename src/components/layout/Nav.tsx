@@ -57,7 +57,6 @@ const NavBar = styled.nav<{ visible?: boolean }>`
   height: 100px;
   justify-content: flex-end;
   align-items: center;
-  background-color: white;
   overflow-x: hidden;
   transform: translate(0vw, 0vh);
   background-color: var(--main-bg-color);
