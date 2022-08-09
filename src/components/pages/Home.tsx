@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonStyled from "../elements/Button";
+import StyledButton from "../elements/Button";
 import styled from "styled-components";
 import Circles from "../elements/Circles";
 
@@ -13,8 +13,8 @@ const Home = () => {
         <h4>React.js/Javascript/CSS/HTML</h4>
         <h4>Node.js/Express.js/RestAPI</h4>
         <Buttonera>
-          <ButtonStyled text="mywork" typeOfButton="secondary" goto="/mywork" />
-          <ButtonStyled
+          <StyledButton text="mywork" typeOfButton="secondary" goto="/mywork" />
+          <StyledButton
             text="myskills"
             typeOfButton="primary"
             goto="/myskills"

@@ -1,14 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
+import React from "react";
 
 export const GlobalContext = createGlobalStyle`
 
-  #root {
+  html {
+    background-color: #1F2E3D;
+    overflow-x: hidden;
     --main-bg-color: #1F2E3D;
     --secondary-bg-color: #2C4156;
     --main-color: #65DFDC;
@@ -16,23 +18,15 @@ export const GlobalContext = createGlobalStyle`
     --main-color-light: #E3FFFE;
   }
 
-  html {
-    background-color: #1F2E3D;
-    overflow-x: hidden;
-  }
-
-
-
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-
- 
   body {
     background-color: var(--main-bg-color);
+    color: var(--main-color-light);
   }
 
 
@@ -43,8 +37,9 @@ export const GlobalContext = createGlobalStyle`
     color: var(--main-color-light);
     font-family: 'Roboto Mono', monospace;
   }
+
   h2 {
-    font-size: 2rem;
+    font-size: clamp(1.2rem, 2vw, 2rem);
     font-weight: 100;
     text-transform: capitalize;
     color: var(--main-color-light);
@@ -63,7 +58,6 @@ export const GlobalContext = createGlobalStyle`
   h4 {
     color: var(--main-color-light);
     font-family: 'Roboto Mono', monospace;
-
   }
 
   p {
@@ -103,15 +97,14 @@ export const GlobalContext = createGlobalStyle`
     }
   }
 `;
+const container = document.getElementById("app");
+const renderRoot = createRoot(container!);
 
-ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <GlobalContext />
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById("root")
+renderRoot.render(
+  <BrowserRouter>
+    <GlobalContext />
+    <App />
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
