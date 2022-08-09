@@ -96,7 +96,7 @@ const AboutMeContainer = styled.div`
   padding: 2vw;
   gap: 50px;
   background-color: var(--main-bg-color);
-  @media (max-width: 664px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
   }
 `;
