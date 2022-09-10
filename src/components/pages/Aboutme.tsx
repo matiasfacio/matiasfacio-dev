@@ -51,13 +51,14 @@ const Aboutme = () => {
               <a href="https://www.inklusion-digital.de/">
                 https://www.inklusion-digital.de/
               </a>
-              ). Stack: Next.js, SWR, Tailwinds
+              ). Stack: Next.js, Typescript, SWR, Tailwinds, Github, Discord.
             </li>
             <li>
               01.05.2021 - 28.02.2022: Frontend Developer at Seabo (
               <a href="https://seabo.com">https://seabo.com</a>). The stack we
-              were using consists of: React.js, React-Router, React-Query,
-              Redux, Ant Design, Styled-Components, Gitlab and Slack.
+              were using consisted of: React.js, Typescript, React-Router,
+              React-Query, Redux, Ant Design, Styled-Components, Gitlab and
+              Slack.
             </li>
             <li>
               01.03.2009 - 31.12.2019: Tango Libre Gbr. Management of the

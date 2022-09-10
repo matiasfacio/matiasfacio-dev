@@ -120,7 +120,19 @@ const Mywork = () => {
               </a>
               <Details>
                 React.js / Styled-Components <br />
-                (work in progress)
+              </Details>
+            </li>
+            <li>
+              <a
+                href="https://www.diakidz.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Diakidz.com <br />
+              </a>
+              <Details>
+                Next.js / Styled-Components / Netlify
+                <br />
               </Details>
             </li>
           </ul>
@@ -128,16 +140,6 @@ const Mywork = () => {
         <WorkUnit>
           <Title>Prototypes</Title>
           <ul>
-            <li>
-              <a
-                href="https://tangolibre.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Tango Libre
-              </a>
-              <Details>Next.js / Heroku</Details>
-            </li>
             <li>
               <a
                 href="https://prototype-style-design.netlify.app/"

@@ -10,7 +10,7 @@ const Home = () => {
         <h1>matias facio</h1>
         <h3>Frontend Developer</h3>
         <br />
-        <h4>React.js/Javascript/CSS/HTML</h4>
+        <h4>React.js/Next.js/Javascript/CSS/HTML</h4>
         <h4>Node.js/Express.js/RestAPI</h4>
         <Buttonera>
           <StyledButton text="mywork" typeOfButton="secondary" goto="/mywork" />
