@@ -13,7 +13,11 @@ const Home = () => {
         <h4>React.js/Next.js/Javascript/CSS/HTML</h4>
         <h4>Node.js/Express.js/RestAPI</h4>
         <Buttonera>
-          <StyledButton text="mywork" typeOfButton="secondary" goto="/mywork" />
+          <StyledButton
+            text="portfolio"
+            typeOfButton="secondary"
+            goto="/myportfolio"
+          />
           <StyledButton
             text="myskills"
             typeOfButton="primary"

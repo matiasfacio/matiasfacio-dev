@@ -2,7 +2,7 @@ import React from "react";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import Myskills from "../pages/Myskills";
-import Mywork from "../pages/Mywork";
+import Mywork from "../pages/MyPortfolio";
 import Header from "./Header";
 import { Route, Routes } from "react-router-dom";
 import styled from "styled-components";
@@ -45,7 +45,7 @@ const Content = () => {
         />
 
         <Route
-          path="/mywork"
+          path="/myportfolio"
           element={
             <>
               {" "}

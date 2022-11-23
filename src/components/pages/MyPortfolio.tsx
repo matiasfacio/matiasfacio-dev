@@ -53,18 +53,18 @@ const Mywork = () => {
             </li>
             <li>
               <a
-                href="https://tangoblogging.herokuapp.com/"
+                href="https://tango-blogging.netlify.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 Blog
               </a>
               <Details>
-                React.js / Node.js / <br />
-                RestAPI / MongoDB / Heroku /
+                React.js / Next.js / <br />
+                RestAPI / MongoDB / Netflify / <br />
+                Tailwind
               </Details>
             </li>
-
             <li>
               <a
                 href="https://tateti-tictactoe.netlify.app/"
