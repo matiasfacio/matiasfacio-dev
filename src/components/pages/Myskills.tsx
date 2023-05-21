@@ -24,6 +24,7 @@ const Myskills = () => {
         <WorkUnit>
           <Title>Frontend (SPA)</Title>
           <ul>
+            <li>Typescript</li>
             <li>React.js</li>
             <li>Next.js</li>
             <li>React-Router</li>
@@ -31,7 +32,8 @@ const Myskills = () => {
             <li>Redux</li>
             <li>Styled-Components</li>
             <li>Ant Design</li>
-            <li>Typescript</li>
+            <li>Material UI</li>
+            <li>Tailwind.js</li>
           </ul>
         </WorkUnit>
         <WorkUnit>
