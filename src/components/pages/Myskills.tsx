@@ -6,46 +6,42 @@ const Myskills = () => {
   return (
     <MySkillsContainer>
       <MySkillsContent>
-        <WorkUnit>
-          <Title>Websites</Title>
-          <ul>
-            <li>HTML</li>
-            <li>CSS/SASS</li>
-            <li>Javascript</li>
-            <li>Flexbox</li>
-            <li>Grid</li>
-            <li>Responsiveness</li>
-            <li>CSS Canvas</li>
-            <li>CSS Transformations</li>
-            <li>CSS Animations</li>
-            <li>Basic SVG</li>
-          </ul>
-        </WorkUnit>
+        {/*    <li>HTML</li>*/}
+        {/*    <li>CSS/SASS</li>*/}
+        {/*    <li>Javascript</li>*/}
+        {/*    <li>Flexbox</li>*/}
+        {/*    <li>Grid</li>*/}
+        {/*    <li>Responsiveness</li>*/}
+        {/*    <li>CSS Canvas</li>*/}
+        {/*    <li>CSS Transformations</li>*/}
+        {/*    <li>CSS Animations</li>*/}
+        {/*    <li>Basic SVG</li>*/}
+
         <WorkUnit>
           <Title>Frontend (SPA)</Title>
-          <ul>
-            <li>Typescript</li>
-            <li>React.js</li>
-            <li>Next.js</li>
-            <li>React-Router</li>
-            <li>React-Query</li>
-            <li>Redux</li>
-            <li>Styled-Components</li>
-            <li>Ant Design</li>
-            <li>Material UI</li>
-            <li>Tailwind.js</li>
-          </ul>
+          <p>
+            Typescript, React, Next.js, React Native, Expo.dev
+            <br /> <br />
+            React-Router
+            <br /> <br />
+            React-Query, SWR, Redux
+            <br /> <br />
+            Styled-Components, Ant Design, Material UI, Tailwind.js, Figma
+            <br /> <br />
+            Gitlab, Github, Slack, Discord, Google Workspace
+            <br /> <br />
+            HTML, CSS, SASS, Flexbox, Grid, Responsiveness, Canvas
+          </p>
         </WorkUnit>
         <WorkUnit>
           <Title>Backend</Title>
-          <ul>
-            <li>Rest API</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Docker</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-          </ul>
+          <p>
+            Rest API, Node.js, Express.js,
+            <br /> <br />
+            Docker
+            <br /> <br />
+            MongoDB, MySql
+          </p>
         </WorkUnit>
       </MySkillsContent>
     </MySkillsContainer>
@@ -76,4 +72,8 @@ const MySkillsContent = styled.div`
   }
 `;
 
-const WorkUnit = styled.div``;
+const WorkUnit = styled.div`
+  p {
+    margin-top: 16px;
+  }
+`;

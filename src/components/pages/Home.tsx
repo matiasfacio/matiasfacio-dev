@@ -10,13 +10,13 @@ const Home = () => {
         <h1>matias facio</h1>
         <h3>Frontend Developer</h3>
         <br />
-        <h4>React.js/Next.js/Javascript/CSS/HTML</h4>
-        <h4>Node.js/Express.js/RestAPI</h4>
+        <h4>React.js & Next.js </h4>
+        <h4>Javascript/CSS/HTML - RestAPI</h4>
         <Buttonera>
           <StyledButton
-            text="portfolio"
+            text="About me"
             typeOfButton="secondary"
-            goto="/myportfolio"
+            goto="/aboutme"
           />
           <StyledButton
             text="myskills"

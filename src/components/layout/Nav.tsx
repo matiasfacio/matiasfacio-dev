@@ -29,11 +29,11 @@ const Nav = () => {
           <Link to="/aboutme" onClick={handleClick}>
             AboutMe
           </Link>
-          <Link to="/myportfolio" onClick={handleClick}>
-            Portfolio
-          </Link>
+          {/*<Link to="/myportfolio" onClick={handleClick}>*/}
+          {/*  Portfolio*/}
+          {/*</Link>*/}
           <Link to="/myskills" onClick={handleClick}>
-            Skills
+            Tech Stack
           </Link>
           <Link to="/contact" onClick={handleClick}>
             Contact

@@ -27,7 +27,7 @@ const Content = () => {
           path="/myskills"
           element={
             <>
-              <Header title="My Skills" />
+              <Header title="Tech stack" />
               <Myskills />
             </>
           }

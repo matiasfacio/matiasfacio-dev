@@ -9,40 +9,28 @@ const Aboutme = () => {
       <AboutMeContainer>
         <AboutMeText>
           <p>
-            Hi, I'm Matias. I'm a Web Developer based in Berlin, interested in
-            programming Web applications in React.js. <br />I have been working
-            with HTML, CSS and Javascript for some years now, and about 4 years
-            ago I started to work with React.js and Node.js. <br />
-            <br />I deploy my own projects in my VPS using Github Actions,
-            Docker and Nginx. I could say that I am interested in both, Front-
-            and Backend development, but it is in Frontend where I feel that I
-            can give my best. <br />
-            <br />I speak: Spanish, English and German. <br />
-            <br />I studied 4 years of I.T. back in Patagonia, Argentina, but
-            then I decided to follow an artistic path, which I did and now
-            occasionally I still do. <br />
-            <br />
-            Why web programming? I always did all the Websites, video edition
-            and graphic materials that I needed for my projects and even for
-            some friends. About 4 years ago, I decided to return to my old
-            passion and become professional programmer. <br />
-            <br />
-            In the need of practice, I started to change some of my projects
-            into React.js and created some new ones like{" "}
-            <a href="https://tbc-next.netlify.app">
-              https://tbc-next.netlify.app
-            </a>
-            , an online video learning platform, and{" "}
-            <a href="https://www.tangodefinitions.com">
-              www.tangodefinitions.com
-            </a>{" "}
-            which is a simple search bar for tango related words. <br />
-            <br />
-            I'm also doing some projects for other clients and for my self, both
-            in React.js and Next.js.
+            Hello, I'm Matias, a Berlin-based Frontend developer with a focus on
+            crafting Web applications using React.js and Next.js. My programming
+            journey spans several years, during which I've worked extensively
+            with HTML, CSS, and Javascript. Since 2019, React.js has been a
+            central part of my toolkit.
             <br />
             <br />
-            If you think that we can work together, contact me and let's talk.
+            Fluent in Spanish, English, and German, I studied IT for four years
+            in Patagonia, Argentina. Despite initially following an artistic
+            path, I found myself consistently engaged in programming—creating
+            websites, editing videos, and designing graphics for projects and
+            friends.
+            <br />
+            <br />
+            In 2019, I made a conscious decision to return to programming
+            professionally and chose React.js after a friend's recommendation.
+            The experience was transformative, and I quickly developed a strong
+            affinity for its capabilities.
+            <br />
+            <br />
+            If you're interested in potential collaboration, don't hesitate to
+            reach out. I'm eager to connect. Thank you.
           </p>
           <WorkExperienceList>
             <WorkTitle>Work experience:</WorkTitle>
@@ -50,21 +38,24 @@ const Aboutme = () => {
               01.01.2023 - present: Fulltime Frontend Developer at Park-Here
               GmbH (
               <a href="https://www.park-here.eu/">https://www.park-here.eu/</a>
-              ). Stack: React.js, Typescript, React-Query, Styled-Components,
-              Material UI, React-Native, Expo, Google Workspace.
+              ). <br />
+              Stack: React.js, Typescript, React-Query, Styled-Components,
+              Material UI, React-Native, Expo, Google Workspace. Lead of the
+              Frontend Chapter.
             </li>
             <li>
-              01.04.2022 - 31.12.2023: Fulltime Frontend Developer at
+              01.04.2022 - 31.12.2022: Fulltime Frontend Developer at
               Inklusion-Digital (
               <a href="https://www.inklusion-digital.de/">
                 https://www.inklusion-digital.de/
               </a>
-              ). Stack: Next.js, Typescript, SWR, Tailwinds, Github, Discord.
+              ). <br />
+              Stack: Next.js, Typescript, SWR, Tailwinds, Github, Discord.
             </li>
             <li>
               01.05.2021 - 28.02.2022: Contractor Frontend Developer at Seabo (
-              <a href="https://seabo.com">https://seabo.com</a>). Stack:
-              React.js, Typescript, React-Router, React-Query, Redux, Ant
+              <a href="https://seabo.com">https://seabo.com</a>). <br />
+              Stack: React.js, Typescript, React-Router, React-Query, Redux, Ant
               Design, Styled-Components, Gitlab and Slack.
             </li>
             <li>
