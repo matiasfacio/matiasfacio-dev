@@ -11,7 +11,7 @@ const Home = () => {
         <h3>Frontend Developer</h3>
         <br />
         <h4>React.js & Next.js </h4>
-        <h4>Javascript/CSS/HTML - RestAPI</h4>
+        <h4>Typescript/HTML/CSS</h4>
         <Buttonera>
           <StyledButton
             text="About me"
