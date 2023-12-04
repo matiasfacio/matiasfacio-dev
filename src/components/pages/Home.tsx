@@ -14,7 +14,7 @@ const Home = () => {
         <h4>Typescript/HTML/CSS</h4>
         <Buttonera>
           <StyledButton
-            text="About me"
+            text="about me"
             typeOfButton="secondary"
             goto="/aboutme"
           />
