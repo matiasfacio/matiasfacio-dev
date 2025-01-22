@@ -85,12 +85,9 @@ const MySkillsContainer = styled.div`
 
 const MySkillsContent = styled.div`
   margin: 100px auto;
-  display: grid;
-  grid-auto-columns: repeat(auto, 300px);
+  display: flex;
+  flex-direction: column;
   gap: 50px;
-  @media (max-width: 740px) {
-    grid-auto-columns: 1fr;
-  }
 `;
 
 const WorkUnit = styled.div`
