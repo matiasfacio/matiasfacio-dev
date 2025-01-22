@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import menuImage from "../../images/menu.svg";
 
+const isDev = process.env.NODE_ENV === "development";
+
 const Nav = () => {
   const [menuVisibility, setMenuVisibility] = useState(false);
 
@@ -35,7 +37,11 @@ const Nav = () => {
           <Link to="/contact" onClick={handleClick}>
             Contact
           </Link>
-          <Link to={"/playground"} onClick={handleClick}></Link>
+          {isDev && (
+            <Link to={"/playground"} onClick={handleClick}>
+              Playground
+            </Link>
+          )}
         </ul>
       </NavBar>
     </div>
