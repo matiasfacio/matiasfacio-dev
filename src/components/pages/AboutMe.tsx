@@ -40,7 +40,7 @@ const AboutMe = () => {
               <a href="https://www.park-here.eu/">https://www.park-here.eu/</a>
               ). <br />
               Stack: React.js, React-Native, Expo.dev, Typescript, React-Query,
-              Styled-Components, Material UI, Google Workspace. Lead of Frontend
+              Styled-Components, Material UI, Sentry.io, Google Workspace. Lead
               Chapter.
             </li>
             <li>

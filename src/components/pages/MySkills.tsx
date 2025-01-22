@@ -17,9 +17,9 @@ const MySkills = () => {
             <br /> <br />
             Styled-Components, Ant Design, Material UI, Tailwind.js, Figma
             <br /> <br />
-            Gitlab, Github, Slack, Discord, Google Workspace
+            Gitlab, Github, Sentry, Slack, Discord, Google Workspace
             <br /> <br />
-            HTML, CSS, SASS, Flexbox, Grid, Responsiveness, Canvas
+            HTML, CSS, SASS, Flexbox, Grid, Canvas
           </p>
         </WorkUnit>
         <WorkUnit>
