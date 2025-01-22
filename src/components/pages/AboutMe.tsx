@@ -16,17 +16,17 @@ const AboutMe = () => {
             central part of my toolkit.
             <br />
             <br />
-            Fluent in Spanish, English, and German, I studied IT for four years
-            in Patagonia, Argentina. Despite initially following an artistic
-            path, I found myself consistently engaged in programming—creating
-            websites, editing videos, and designing graphics for projects and
-            friends.
+            Fluent in Spanish, English, and German (B2), I studied IT for four
+            years in Patagonia, Argentina. Despite initially following an
+            artistic path, I found myself consistently engaged in
+            programming—creating websites, editing videos, and designing
+            graphics for projects and friends.
             <br />
             <br />
-            In 2019, I made a conscious decision to return to programming
-            professionally and chose React.js after a friend's recommendation.
-            The experience was transformative, and I quickly developed a strong
-            affinity for its capabilities.
+            In 2018, I made a conscious decision to return to programming
+            professionally and in 2020 chose React.js after a friend's
+            recommendation. The experience was so powerful that I quickly
+            developed a strong affinity for its capabilities.
             <br />
             <br />
             If you're interested in potential collaboration, don't hesitate to
@@ -39,9 +39,9 @@ const AboutMe = () => {
               GmbH (
               <a href="https://www.park-here.eu/">https://www.park-here.eu/</a>
               ). <br />
-              Stack: React.js, Typescript, React-Query, Styled-Components,
-              Material UI, React-Native, Expo, Google Workspace. Lead of the
-              Frontend Chapter.
+              Stack: React.js, React-Native, Expo.dev, Typescript, React-Query,
+              Styled-Components, Material UI, Google Workspace. Lead of Frontend
+              Chapter.
             </li>
             <li>
               01.04.2022 - 31.12.2022: Fulltime Frontend Developer at

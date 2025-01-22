@@ -17,6 +17,16 @@ export const GlobalContext = createGlobalStyle`
     --main-color-light: #E3FFFE;
   }
 
+  @media screen and (max-width: 800px){
+    html {
+      --main-bg-color: #242454;
+      --secondary-bg-color: #2C4156;
+      --main-color: #569fe7;
+      --main-color-tomato: tomato;
+      --main-color-light: #E3FFFE;
+    }
+  }
+
   * {
     margin: 0;
     padding: 0;
