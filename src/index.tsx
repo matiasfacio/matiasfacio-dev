@@ -21,7 +21,7 @@ export const GlobalContext = createGlobalStyle`
     html {
       --main-bg-color: #242454;
       --secondary-bg-color: #2C4156;
-      --main-color: #569fe7;
+      --main-color: #2b659f;
       --main-color-tomato: tomato;
       --main-color-light: #E3FFFE;
     }
@@ -37,7 +37,6 @@ export const GlobalContext = createGlobalStyle`
     background-color: var(--main-bg-color);
     color: var(--main-color-light);
   }
-
 
   h1 {
     font-size: clamp(2rem, 10vw, 4rem);
@@ -61,7 +60,6 @@ export const GlobalContext = createGlobalStyle`
     text-transform: uppercase;
     color: var(--main-color-light);
     font-family: 'Roboto Mono', monospace;
-
   }
 
   h4 {
