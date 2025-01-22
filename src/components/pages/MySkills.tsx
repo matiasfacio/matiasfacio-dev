@@ -49,21 +49,21 @@ const MySkills = () => {
         <p>
           Speech Navigator: This extension leverages the Speech API to bookmark
           paths within a domain, enabling voice navigation. It is implemented
-          using React.js. You can find it here:
+          using React.js.
         </p>
         <p>
           Web Reader: Uses the Speech API, to read loud the by the user selected
-          text. It allows for speed of and volume. You can find it here:
+          text. It allows for speed of and volume.
         </p>
         <p>
           Title Reader: This extension uses the Chrome Extension service worker
           to track its activated/deactivated state via the icon badge. It
           identifies document headers, attaches links to them, and lists them in
-          a side panel created with React.js. You can find it here:
+          a side panel created with React.js.
         </p>
         <p>
           Omnibox Navigation: Mostly for personal use. Use Omnibox for
-          navigation. You can find it here:
+          navigation.
         </p>
       </StyledHobbies>
     </MySkillsContainer>
