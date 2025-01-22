@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import StyledButton from "../elements/Button";
 import styled from "styled-components";
 import Circles from "../elements/Circles";
@@ -12,7 +12,7 @@ const Home = () => {
         <br />
         <h4>React.js & Next.js </h4>
         <h4>Typescript/HTML/CSS</h4>
-        <Buttonera>
+        <ButtonContainer>
           <StyledButton
             text="about me"
             typeOfButton="secondary"
@@ -23,7 +23,7 @@ const Home = () => {
             typeOfButton="primary"
             goto="/myskills"
           />
-        </Buttonera>
+        </ButtonContainer>
       </ContainerLeft>
       <ContainerRight>
         <Circles />
@@ -87,6 +87,6 @@ const ContainerRight = styled.div`
   }
 `;
 
-const Buttonera = styled.div`
+const ButtonContainer = styled.div`
   margin-top: 70px;
 `;

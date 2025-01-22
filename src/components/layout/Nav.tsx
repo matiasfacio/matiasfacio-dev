@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import menuImage from "../../images/menu.svg";
@@ -29,15 +29,13 @@ const Nav = () => {
           <Link to="/aboutme" onClick={handleClick}>
             AboutMe
           </Link>
-          {/*<Link to="/myportfolio" onClick={handleClick}>*/}
-          {/*  Portfolio*/}
-          {/*</Link>*/}
           <Link to="/myskills" onClick={handleClick}>
             Tech Stack
           </Link>
           <Link to="/contact" onClick={handleClick}>
             Contact
           </Link>
+          <Link to={"/playground"} onClick={handleClick}></Link>
         </ul>
       </NavBar>
     </div>
@@ -52,7 +50,6 @@ const NavBar = styled.nav<{ visible?: boolean }>`
   right: 0;
   display: flex;
   flex-direction: row;
-  align-items: center;
   z-index: 99;
   height: 100px;
   justify-content: flex-end;
@@ -69,7 +66,6 @@ const NavBar = styled.nav<{ visible?: boolean }>`
       padding: 10px;
       margin: 10px;
       text-decoration: none;
-      color: black;
       border-radius: 10px;
       font-weight: 500;
       text-transform: capitalize;

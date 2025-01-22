@@ -3,7 +3,7 @@ import styled from "styled-components";
 import logo from "../../images/logo.svg";
 import matiasfacio from "../../images/MatiasFacio-portrait.jpg";
 
-const Aboutme = () => {
+const AboutMe = () => {
   return (
     <>
       <AboutMeContainer>
@@ -73,7 +73,7 @@ const Aboutme = () => {
   );
 };
 
-export default Aboutme;
+export default AboutMe;
 
 const AboutMeText = styled.div`
   max-width: 65ch;

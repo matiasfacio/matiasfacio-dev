@@ -1,12 +1,12 @@
 import Footer from "./components/layout/Footer";
 import Nav from "./components/layout/Nav";
-import Content from "./components/layout/Content";
+import ContentAndRouting from "./components/layout/ContentAndRouting";
 
 function App() {
   return (
     <div>
       <Nav />
-      <Content />
+      <ContentAndRouting />
       <Footer />
     </div>
   );

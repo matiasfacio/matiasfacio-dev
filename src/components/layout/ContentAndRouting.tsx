@@ -1,14 +1,15 @@
 import React from "react";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
-import Myskills from "../pages/Myskills";
-import Mywork from "../pages/MyPortfolio";
+import MySkills from "../pages/MySkills";
 import Header from "./Header";
 import { Route, Routes } from "react-router-dom";
 import styled from "styled-components";
-import Aboutme from "../pages/Aboutme";
+import AboutMe from "../pages/AboutMe";
+import { Playground } from "../pages/Playground";
+import { Navigate } from "react-router";
 
-const Content = () => {
+const ContentAndRouting = () => {
   return (
     <ContentContainer>
       <Routes>
@@ -28,7 +29,7 @@ const Content = () => {
           element={
             <>
               <Header title="Tech stack" />
-              <Myskills />
+              <MySkills />
             </>
           }
         />
@@ -37,29 +38,27 @@ const Content = () => {
           path="/aboutme"
           element={
             <>
-              {" "}
               <Header title="About Me" />
-              <Aboutme />
+              <AboutMe />
             </>
           }
         />
-
         <Route
-          path="/myportfolio"
+          path={"/playground/:name"}
           element={
             <>
-              {" "}
-              <Header title="My Work" />
-              <Mywork />
+              <Header title={"Playground"} />
+              <Playground />
             </>
           }
         />
+        <Route path={"*"} element={<Navigate to={"/"} replace />} />
       </Routes>
     </ContentContainer>
   );
 };
 
-export default Content;
+export default ContentAndRouting;
 
 const ContentContainer = styled.section`
   width: 100vw;

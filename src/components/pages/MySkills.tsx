@@ -2,21 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { Title } from "../elements/Title";
 
-const Myskills = () => {
+const MySkills = () => {
   return (
     <MySkillsContainer>
       <MySkillsContent>
-        {/*    <li>HTML</li>*/}
-        {/*    <li>CSS/SASS</li>*/}
-        {/*    <li>Javascript</li>*/}
-        {/*    <li>Flexbox</li>*/}
-        {/*    <li>Grid</li>*/}
-        {/*    <li>Responsiveness</li>*/}
-        {/*    <li>CSS Canvas</li>*/}
-        {/*    <li>CSS Transformations</li>*/}
-        {/*    <li>CSS Animations</li>*/}
-        {/*    <li>Basic SVG</li>*/}
-
         <WorkUnit>
           <Title>Frontend (SPA)</Title>
           <p>
@@ -48,7 +37,7 @@ const Myskills = () => {
   );
 };
 
-export default Myskills;
+export default MySkills;
 
 const MySkillsContainer = styled.div`
   width: 100%;
