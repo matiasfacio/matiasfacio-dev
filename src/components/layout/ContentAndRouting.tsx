@@ -44,7 +44,7 @@ const ContentAndRouting = () => {
           }
         />
         <Route
-          path={"/playground/:name"}
+          path={"/playground"}
           element={
             <>
               <Header title={"Playground"} />
